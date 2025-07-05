@@ -21,6 +21,14 @@ h3 {
   font-weight: normal;
 }
 
+ul,
+ul li,
+ul ul li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+}
+
 /* Printing */
 page {
   background: white;
@@ -101,7 +109,8 @@ page[size="A4"] {
     display: flex;
     flex-direction: column;
     gap: 4px;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 4px;
 
     font-size: 12px;
     font-weight: 600;
@@ -176,6 +185,24 @@ page[size="A4"] {
     }
 
     &.employment {
+      h2 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      h3 {
+        color: var(--secondary);
+        font-weight: 600;
+        font-size: 16px;
+      }
+
+      ul {
+        li {
+          margin-bottom: 4px;
+          font-size: 11px;
+          margin-left: 15px;
+        }
+      }
     }
 
     &.skills {
