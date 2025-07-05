@@ -6,128 +6,12 @@
 body {
   -webkit-print-color-adjust:exact !important;
   print-color-adjust:exact !important;
-}
-
-/* Fonts */
-
-/* Family */
-/* h1 { 
-  font-family: 'Calibri', sans-serif;
-} */
-
-/* Contact, Skills, Education, About me, Work Experience */
-/* h2 {
-  font-family: 'Calibri', sans-serif;
-} */
-
-/* Accountant */
-/* h3 {
-  font-family: 'Calibri', sans-serif;
-} */
-
-/* .jobPosition span, 
-.projectName span {
-  font-family: 'Calibri', sans-serif;
-} */
-
-.upperCase {
-  text-transform: uppercase; 
-}
-
-.smallText, 
-.smallText span, 
-.smallText p, 
-.smallText a {
-  font-family: 'Calibri', sans-serif;
-  text-align: justify;
-}
-
-/* End Family */
-
-/* Colors */
-/* h1 { 
-  color: #111; 
-} */
-
-.leftPanel, 
-.leftPanel a {
-  color: #bebebe;
-  text-decoration: none;
-}
-
-.leftPanel h2 {
-  color: white;
-}
-
-/* End Colors */
-
-/* Sizes */
-/* h1 { 
-  font-weight: 300; 
-  font-size: 1.2cm;
-  transform:scale(1,1.15); 
-  margin-bottom: 0.2cm;
-  margin-top: 0.2cm;
-  text-transform: uppercase; 
-} */
-
-h2 {
-  margin-top: 0.1cm;
-  margin-bottom: 0.1cm;
-}
-
-.leftPanel, 
-.leftPanel a {
-  font-size: 0.38cm;
-}
-
-.projectName span, 
-.jobPosition span {
-  font-size: 0.35cm;
-}
-
-.smallText, 
-.smallText span, 
-.smallText p, 
-.smallText a {
-  font-size: 0.35cm;
-}
-
-.leftPanel .smallText, 
-.leftPanel .smallText, 
-.leftPanel .smallText span, 
-.leftPanel .smallText p, 
-.smallText a {
-  font-size: 0.45cm;
-}
-
-.contactIcon {
-  width: 0.5cm;
-  text-align: center;
-}
-
-p {
-  margin-top: 0.05cm;
-  margin-bottom: 0.05cm;
-}
-/* End Sizes */
-
-.bolded {
-  font-weight: bold;
-}
-
-.white {
-  color: white;
-}
-/* End Fonts */
-
-/* Layout */
-body {
   background: rgb(204,204,204); 
   width: 21cm;
   height: 29.7cm;
   margin: 0 auto;
 }
+
 
 /* Printing */
 page {
@@ -150,6 +34,8 @@ page[size="A4"] {
    border-collapse: collapse;
 }
 /* End Printing */
+
+/* Layout */
 
 .container {
   display: flex;
