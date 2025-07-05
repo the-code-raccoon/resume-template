@@ -156,126 +156,7 @@ page[size="A4"] {
   flex-direction: row;
   width: 100%;
   height: 100%;
-}
-
-.bottomPanel {
-
-}
-
-.leftPanel {
-  width: 27%;
-  background-color: #484444;
-  padding: 0.7cm;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.rightPanel {
-  width: 73%;
-  padding: 0.7cm;
-}
-
-.leftPanel img {
-  width: 4cm;
-  height: 4cm;
-  margin-bottom: 0.7cm;
-  border-radius: 50%;
-  border: 0.15cm solid white;
-  object-fit: cover;
-  object-position: 50% 50%;
-}
-
-.leftPanel .details {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.skill {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.bottomLineSeparator {
-  border-bottom: 0.05cm solid white;
-}
-
-.yearsOfExperience {
-  width: 1.6cm;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.alignleft {
-  text-align: left !important;
-  width: 1cm;
-}
-
-.alignright {
-  text-align: right !important;
-  width: 0.6cm;
-  margin-right: 0.1cm
-}
-
-.workExperience>ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.workExperience>ul>li {
-  position: relative;
-  margin: 0;
-  padding-bottom: 0.5cm;
-  padding-left: 0.5cm;
-}
-
-.workExperience>ul>li:before {
-  background-color: #b8abab;
-  width: 0.05cm;
-  content: '';
-  position: absolute;
-  top: 0.1cm;
-  bottom: -0.2cm; /* change this after border removal */
-  left: 0.05cm;
-}
-
-.workExperience>ul>li::after {
-  content: '';
-  position: absolute;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' aria-hidden='true' viewBox='0 0 32 32' focusable='false'%3E%3Ccircle stroke='none' fill='%23484444' cx='16' cy='16' r='10'%3E%3C/circle%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-size: contain;
-  left: -0.09cm;
-  top: 0;
-  width: 0.35cm;
-  height: 0.35cm;
-}
-
-.jobPosition {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.item {
-  padding-bottom: 0.7cm;
-  padding-top: 0.7cm;
-}
-
-.item h2{
-  margin-top: 0;
-}
-
-.lastParagrafNoMarginBottom {
-  margin-bottom: 0;
-}
-
-.workExperience>ul>li ul {
-  padding-left: 0.5cm;
-  list-style-type: disc;
+  font-family: "Montserrat", sans-serif;
 }
 
 .topPanel {
@@ -284,89 +165,87 @@ page[size="A4"] {
   width: 100%;
   display: flex;
   flex-direction: row;
-}
-
-.name {
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-
-  width: 45%;
-  padding: 10px 30px;
-
-  display: flex;
-  flex-direction: column;
-  
-  .first {
-    color: var(--primary);
-  }
-  
-  .last {
-    color: var(--secondary);
-  }
-  
-  .jobTitle {
-    font-size: 18px;
-    font-weight: 600;
+  .name {
+    font-size: 32px;
+    font-weight: 700;
     letter-spacing: 0.1rem;
-    margin-bottom: 4px;
-  }
-
-  > hr {
-    width: 100%;
-    color: var(--primary);
-    background-color: var(--primary);
-    border: none;
-    height: 1px;
-    margin: 0;
-    margin-bottom: 10px;
-  }
-}
-
-.contactInfo {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  justify-content: center;
-
-  font-size: 12px;
-  font-weight: 600;
-
-  padding: 10px 0px;
-
-  i {
-    margin-right: 6px;
-  }
-
-  a {
-    text-decoration: none;
-    color: black;
-  }
-
-  a:visited { text-decoration: none; }
-  a:hover { text-decoration: none; }
-  a:focus { text-decoration: none; }
-  a:hover, a:active { text-decoration: none; }
-
-  > .row {
+    text-transform: uppercase;
+  
+    width: 45%;
+    padding: 10px 30px;
+  
     display: flex;
-    flex-direction: row;
-    gap: 20px;
+    flex-direction: column;
+    
+    .first {
+      color: var(--primary);
+    }
+    
+    .last {
+      color: var(--secondary);
+    }
+    
+    .jobTitle {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 0.1rem;
+      margin-bottom: 4px;
+    }
+  
+    > hr {
+      width: 100%;
+      color: var(--primary);
+      background-color: var(--primary);
+      border: none;
+      height: 1px;
+      margin: 0;
+      margin-bottom: 10px;
+    }
   }
-
-  > .email, > .phoneNumber {
-    grid-row-start: 1;
-  }
-
-  > .linkedin, > .github {
-    grid-row-start: 3;
+  
+  .contactInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+  
+    font-size: 12px;
+    font-weight: 600;
+  
+    padding: 10px 0px;
+  
+    i {
+      margin-right: 6px;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; }
+    a:focus { text-decoration: none; }
+    a:hover, a:active { text-decoration: none; }
+  
+    > .row {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    > .email, > .phoneNumber {
+      grid-row-start: 1;
+    }
+  
+    > .linkedin, > .github {
+      grid-row-start: 3;
+    }
   }
 }
 
+.bottomPanel {
 
-.container {
-  font-family: "Montserrat", sans-serif;
 }
 /*End Layout*/
 
