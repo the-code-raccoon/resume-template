@@ -17,7 +17,7 @@ type ResumeInfoType = {
 function App() {
   const { personalInfo, employments, education, skills } =
     resumeJson as unknown as ResumeInfoType;
-console.log(skills);
+
   return (
     <body>
       <div className="page">
