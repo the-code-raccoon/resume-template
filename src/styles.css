@@ -30,6 +30,18 @@ ul ul li {
   text-indent: 0;
 }
 
+
+/* Printing */
+@page {
+  border-collapse: collapse;
+  size: 21cm 29.7cm;
+  padding: 0;
+  margin: 0mm;
+  border: none;
+}
+/* End Printing */
+
+/* Layout */
 .page {
   background: white;
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
@@ -44,19 +56,6 @@ ul ul li {
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
 }
-
-/* Printing */
-
-/* @page {
-  size: 21cm 29.7cm;
-  padding: 0;
-  margin: 0mm;
-  border: none;
-  border-collapse: collapse;
-} */
-/* End Printing */
-
-/* Layout */
 
 .topPanel {
   background-color: #e9e6ea;
@@ -94,27 +93,13 @@ ul ul li {
       flex-direction: column;
       gap: 2px;
     }
-
-
-    &.education {
-      h2 {
-        font-size: 14px;
-        font-weight: 600;
-        display: block;
-      }
-
-      h3 {
-        font-size: 12px;
-        font-weight: 500;
-        display: block;
-      }
-    }
   }
 
   .row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
     > .extraInfo {
       font-size: 11px;

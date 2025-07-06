@@ -1,35 +1,34 @@
-import { ContactInfo } from "./components/ContactInfo";
-import { Employment } from "./components/Employment";
+import { ContactInfo, ContactInfoType } from "./components/ContactInfo";
+import { Education } from "./components/Education/Education";
+import { Employment, EmploymentType } from "./components/Employment";
 import { Name } from "./components/Name";
 import { Skills } from "./components/Skills";
 import "./styles.css";
 
+import resumeJson from "./resume-info.json";
+
+type ResumeInfoType = {
+  contactInfo: ContactInfoType;
+  employment: EmploymentType[];
+};
+
 function App() {
+  const { contactInfo, employment } = resumeJson as unknown as ResumeInfoType;
+
   return (
     <body>
       <div className="page">
         <div className="topPanel">
           <Name />
-          <ContactInfo />
+          <ContactInfo {...contactInfo} />
         </div>
 
         <div className="bottomPanel">
-          <Employment />
+          {employment.map((e) => (
+            <Employment {...e} />
+          ))}
           <Skills />
-
-          <div className="section education">
-            <h1>education</h1>
-
-            <div className="content">
-              <div className="row">
-                <h2>University of Toronto</h2>
-                <span className="extraInfo">2021</span>
-              </div>
-
-              <h3>Computer Science</h3>
-            </div>
-          </div>
-          <div></div>
+          <Education />
         </div>
       </div>
     </body>
