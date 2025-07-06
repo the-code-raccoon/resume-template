@@ -1,4 +1,5 @@
 import "./styles.css";
+import * as Layout from "../Layout";
 
 export type EducationType = {
   institution: string;
@@ -8,17 +9,17 @@ export type EducationType = {
 
 export const Education = ({ institution, date, subject }: EducationType) => {
   return (
-    <div className="section education">
-      <h1>education</h1>
+    <div className="education">
+      <Layout.Header>education</Layout.Header>
 
-      <div className="content">
-        <div className="row">
+      <Layout.Content>
+        <Layout.Row>
           <h2>{institution}</h2>
           <span className="extraInfo">{date}</span>
-        </div>
+        </Layout.Row>
 
         <h3>{subject}</h3>
-      </div>
+      </Layout.Content>
     </div>
   );
 };

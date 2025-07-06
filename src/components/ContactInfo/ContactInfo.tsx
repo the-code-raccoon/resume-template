@@ -1,4 +1,5 @@
 import "./styles.css";
+import * as Layout from "../Layout";
 
 type ContactInfoLinkType = "github" | "linkedin";
 
@@ -16,7 +17,7 @@ export type ContactInfoType = {
 export const ContactInfo = ({ email, phoneNumber, location, links }) => {
   return (
     <div className="contactInfo">
-      <div className="row">
+      <Layout.Row>
         <div className="email">
           <i className="fa-solid fa-envelope"></i>
           {email}
@@ -25,16 +26,16 @@ export const ContactInfo = ({ email, phoneNumber, location, links }) => {
           <i className="fa-solid fa-phone fa-sm"></i>
           {phoneNumber}
         </div>
-      </div>
+      </Layout.Row>
 
-      <div className="row">
+      <Layout.Row>
         <div className="location">
           <i className="fa-solid fa-location-dot"></i>
           {location}
         </div>
-      </div>
+      </Layout.Row>
 
-      <div className="row">
+      <Layout.Row>
         {links.map((link) => (
           <div className={link.type}>
             <a href={link.url} target="_blank">
@@ -45,7 +46,7 @@ export const ContactInfo = ({ email, phoneNumber, location, links }) => {
             </a>
           </div>
         ))}
-      </div>
+      </Layout.Row>
     </div>
   );
 };

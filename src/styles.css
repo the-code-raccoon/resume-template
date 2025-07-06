@@ -73,38 +73,5 @@ ul ul li {
   flex-direction: column;
   padding: 20px 15px;
   gap: 20px;
-
-  .section {
-    > h1 {
-      background-color: var(--bg);
-      display: block;
-      flex-grow: 1;
-      padding: 4px 15px;
-
-      text-transform: uppercase;
-      color: var(--primary);
-      font-weight: 700;
-      font-size: 16px;
-    }
-
-    > .content {
-      padding: 8px 15px;
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-  }
-
-  .row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    > .extraInfo {
-      font-size: 11px;
-      font-weight: 600;
-    }
-  }
 }
 /*End Layout*/

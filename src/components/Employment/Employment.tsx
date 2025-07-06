@@ -1,4 +1,5 @@
 import "./styles.css";
+import * as Layout from "../Layout";
 
 type TitleType = {
   title: string;
@@ -15,10 +16,10 @@ export type EmploymentType = {
 const Title = ({ title: titleText, date, responsibilities }: TitleType) => {
   return (
     <>
-      <div className="row">
+      <Layout.Row>
         <h3>{titleText}</h3>
         <span className="extraInfo">{date}</span>
-      </div>
+      </Layout.Row>
 
       <ul>
         {responsibilities.map((r) => (
@@ -29,25 +30,29 @@ const Title = ({ title: titleText, date, responsibilities }: TitleType) => {
   );
 };
 
-export const Employment = ({ employments }: {employments: EmploymentType[]}) => {
+export const Employment = ({
+  employments,
+}: {
+  employments: EmploymentType[];
+}) => {
   return (
-    <div className="section employment">
-      <h1>employment</h1>
+    <div className="employment">
+      <Layout.Header>employment</Layout.Header>
 
-      <div className="content">
+      <Layout.Content>
         {employments.map(({ company, location, titles }) => (
           <>
-            <div className="row">
+            <Layout.Row>
               <h2>{company}</h2>
               <span className="extraInfo">{location}</span>
-            </div>
+            </Layout.Row>
 
             {titles.map((title) => (
               <Title {...title} />
             ))}
           </>
         ))}
-      </div>
+      </Layout.Content>
     </div>
   );
 };

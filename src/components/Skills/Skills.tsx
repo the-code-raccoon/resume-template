@@ -1,23 +1,24 @@
 import "./styles.css";
+import * as Layout from "../Layout";
 
 export type SkillsType = {
   grouping: string;
   items: string[];
 };
 
-export const Skills = ({ skills }: {skills: SkillsType[]}) => {
+export const Skills = ({ skills }: { skills: SkillsType[] }) => {
   return (
-    <div className="section skills">
-      <h1>skills</h1>
+    <div className="skills">
+      <Layout.Header>skills</Layout.Header>
 
-      <div className="content">
+      <Layout.Content>
         {skills.map(({ grouping, items }) => (
           <div className="skill">
             <span>{grouping}: </span>
             {items.join(", ")}
           </div>
         ))}
-      </div>
+      </Layout.Content>
     </div>
   );
 };

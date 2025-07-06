@@ -1,0 +1,30 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  > .extraInfo {
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+.content {
+  padding: 8px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.header {
+  background-color: var(--bg);
+  display: block;
+  flex-grow: 1;
+  padding: 4px 15px;
+
+  text-transform: uppercase;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 16px;
+}
