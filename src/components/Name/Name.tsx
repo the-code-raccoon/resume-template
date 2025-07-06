@@ -1,13 +1,19 @@
-import "./styles.css"
+import "./styles.css";
 
-export const Name = () => {
+export type NameType = {
+  firstName: string;
+  lastName: string;
+  title: string;
+};
+
+export const Name = ({ firstName, lastName, title }: NameType) => {
   return (
     <div className="name">
       <div>
-        <span className="first">francesca </span>
-        <span className="last">ho</span>
+        <span className="first">{firstName} </span>
+        <span className="last">{lastName}</span>
       </div>
-      <span className="jobTitle">software developer</span>
+      <span className="jobTitle">{title}</span>
       <hr />
     </div>
   );

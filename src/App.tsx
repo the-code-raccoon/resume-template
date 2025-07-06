@@ -1,28 +1,28 @@
 import { ContactInfo, ContactInfoType } from "./components/ContactInfo";
 import { Education, EducationType } from "./components/Education/Education";
 import { Employment, EmploymentType } from "./components/Employment";
-import { Name } from "./components/Name";
+import { Name, NameType } from "./components/Name";
 import { Skills } from "./components/Skills";
 import "./styles.css";
 
 import resumeJson from "./resume-info.json";
 
 type ResumeInfoType = {
-  contactInfo: ContactInfoType;
+  personalInfo: NameType & ContactInfoType;
   employment: EmploymentType[];
   education: EducationType[];
 };
 
 function App() {
-  const { contactInfo, employment, education } =
+  const { personalInfo, employment, education } =
     resumeJson as unknown as ResumeInfoType;
 
   return (
     <body>
       <div className="page">
         <div className="topPanel">
-          <Name />
-          <ContactInfo {...contactInfo} />
+          <Name {...personalInfo} />
+          <ContactInfo {...personalInfo} />
         </div>
 
         <div className="bottomPanel">

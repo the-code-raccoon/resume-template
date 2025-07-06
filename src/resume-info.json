@@ -1,5 +1,8 @@
 {
-  "contactInfo": {
+  "personalInfo": {
+    "firstName": "Francesa",
+    "lastName": "Ho",
+    "title": "Software Developer",
     "email": "francesca.ho459@gmail.com",
     "phoneNumber": "647-501-3009",
     "location": "Toronto, Ontario",
