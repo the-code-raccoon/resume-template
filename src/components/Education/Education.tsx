@@ -9,7 +9,7 @@ export type EducationType = {
 
 export const Education = ({ institution, date, subject }: EducationType) => {
   return (
-    <div className="education">
+    <Layout.Root className="education">
       <Layout.Header>education</Layout.Header>
 
       <Layout.Content>
@@ -20,6 +20,6 @@ export const Education = ({ institution, date, subject }: EducationType) => {
 
         <h3>{subject}</h3>
       </Layout.Content>
-    </div>
+    </Layout.Root>
   );
 };

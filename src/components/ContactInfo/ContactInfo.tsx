@@ -16,7 +16,7 @@ export type ContactInfoType = {
 
 export const ContactInfo = ({ email, phoneNumber, location, links }) => {
   return (
-    <div className="contactInfo">
+    <Layout.Root className="contactInfo">
       <Layout.Row>
         <div className="email">
           <i className="fa-solid fa-envelope"></i>
@@ -47,6 +47,6 @@ export const ContactInfo = ({ email, phoneNumber, location, links }) => {
           </div>
         ))}
       </Layout.Row>
-    </div>
+    </Layout.Root>
   );
 };

@@ -1,4 +1,5 @@
 import "./styles.css";
+import * as Layout from "../Layout"
 
 export type NameType = {
   firstName: string;
@@ -8,13 +9,13 @@ export type NameType = {
 
 export const Name = ({ firstName, lastName, title }: NameType) => {
   return (
-    <div className="name">
+    <Layout.Root className="name">
       <div>
         <span className="first">{firstName} </span>
         <span className="last">{lastName}</span>
       </div>
       <span className="jobTitle">{title}</span>
       <hr />
-    </div>
+    </Layout.Root>
   );
 };

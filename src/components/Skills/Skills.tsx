@@ -8,7 +8,7 @@ export type SkillsType = {
 
 export const Skills = ({ skills }: { skills: SkillsType[] }) => {
   return (
-    <div className="skills">
+    <Layout.Root className="skills">
       <Layout.Header>skills</Layout.Header>
 
       <Layout.Content>
@@ -19,6 +19,6 @@ export const Skills = ({ skills }: { skills: SkillsType[] }) => {
           </div>
         ))}
       </Layout.Content>
-    </div>
+    </Layout.Root>
   );
 };

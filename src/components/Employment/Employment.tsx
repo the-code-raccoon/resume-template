@@ -36,7 +36,7 @@ export const Employment = ({
   employments: EmploymentType[];
 }) => {
   return (
-    <div className="employment">
+    <Layout.Root className="employment">
       <Layout.Header>employment</Layout.Header>
 
       <Layout.Content>
@@ -53,6 +53,6 @@ export const Employment = ({
           </>
         ))}
       </Layout.Content>
-    </div>
+    </Layout.Root>
   );
 };
