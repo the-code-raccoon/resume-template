@@ -1,0 +1,13 @@
+.skills {
+  .content {
+    gap: 4px;
+  }
+  
+  .skill {
+    font-size: 11px;
+
+    > span {
+      font-weight: 700;
+    }
+  }
+}

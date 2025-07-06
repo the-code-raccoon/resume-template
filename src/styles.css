@@ -94,20 +94,7 @@ ul ul li {
       flex-direction: column;
       gap: 2px;
     }
-    
-    &.skills {
-      > .content {
-        gap: 4px;
-      }
 
-      .skill {
-        font-size: 11px;
-
-        .name {
-          font-weight: 700;
-        }
-      }
-    }
 
     &.education {
       h2 {
