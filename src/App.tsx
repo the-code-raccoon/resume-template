@@ -9,12 +9,12 @@ import resumeJson from "./resume-info.json";
 
 type ResumeInfoType = {
   personalInfo: NameType & ContactInfoType;
-  employment: EmploymentType[];
+  employments: EmploymentType[];
   education: EducationType[];
 };
 
 function App() {
-  const { personalInfo, employment, education } =
+  const { personalInfo, employments, education } =
     resumeJson as unknown as ResumeInfoType;
 
   return (
@@ -26,9 +26,7 @@ function App() {
         </div>
 
         <div className="bottomPanel">
-          {employment.map((e) => (
-            <Employment {...e} />
-          ))}
+            <Employment employments={employments} />
           <Skills />
           {education.map((e) => (
             <Education {...e} />

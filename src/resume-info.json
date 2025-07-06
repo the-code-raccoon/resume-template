@@ -19,14 +19,34 @@
       }
     ]
   },
-  "employment": [
+  "employments": [
+    {
+      "company": "Nautical Commerce",
+      "location": "Toronto, Ontario (hybrid)",
+      "titles": [
+        {
+          "title": "Softare Developer II",
+          "date": "Jul 2024 to Jun 2025",
+          "responsibilities": [
+            "fjdkslfsd"
+          ]
+        },
+        {
+          "title": "Technical Team Lead",
+          "date": "Jun 2025 to Present",
+          "responsibilities": [
+            "fjdkslfsd"
+          ]
+        }
+      ]
+    },
     {
       "company": "BioRender",
       "location": "Toronto, Ontario (remote)",
       "titles": [
         {
-          "titleText": "Software Developer, Editor Team",
-          "date": "Nov 2023 to May 2024",
+          "title": "Software Developer, Editor Team",
+          "date": "Nov 2023 to Jun 2024",
           "responsibilities": [
             "Created features for an in-browser editor built using Typescript, React and Redux.",
             "Worked directly on new graphing initiative by building technical foundations.",
@@ -35,7 +55,7 @@
           ]
         },
         {
-          "titleText": "Software Developer, Growth Team",
+          "title": "Software Developer, Growth Team",
           "date": "Mar 2023 to Nov 2023",
           "responsibilities": [
             "Conducted and iterated on fast paced weekly experiments.",
@@ -47,7 +67,7 @@
           ]
         },
         {
-          "titleText": "Software Developer, Internal Tools",
+          "title": "Software Developer, Internal Tools",
           "date": "Jul 22 to Mar 2023",
           "responsibilities": [
             "Created and maintained a Restful API that supports over 200 internal users and performed critical business logic.",
