@@ -15,7 +15,7 @@ export const Education = ({ institution, date, subject }: EducationType) => {
       <Layout.Content>
         <Layout.Row>
           <h2>{institution}</h2>
-          <span className="extraInfo">{date}</span>
+          <Layout.RowRightItem>{date}</Layout.RowRightItem>
         </Layout.Row>
 
         <h3>{subject}</h3>

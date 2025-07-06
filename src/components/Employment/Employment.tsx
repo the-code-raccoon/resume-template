@@ -18,7 +18,7 @@ const Title = ({ title: titleText, date, responsibilities }: TitleType) => {
     <>
       <Layout.Row>
         <h3>{titleText}</h3>
-        <span className="extraInfo">{date}</span>
+        <Layout.RowRightItem>{date}</Layout.RowRightItem>
       </Layout.Row>
 
       <ul>
@@ -44,7 +44,7 @@ export const Employment = ({
           <>
             <Layout.Row>
               <h2>{company}</h2>
-              <span className="extraInfo">{location}</span>
+              <Layout.RowRightItem>{location}</Layout.RowRightItem>
             </Layout.Row>
 
             {titles.map((title) => (
