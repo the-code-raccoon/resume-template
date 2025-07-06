@@ -27,16 +27,12 @@
         {
           "title": "Softare Developer II",
           "date": "Jul 2024 to Jun 2025",
-          "responsibilities": [
-            "fjdkslfsd"
-          ]
+          "responsibilities": ["fjdkslfsd"]
         },
         {
           "title": "Technical Team Lead",
           "date": "Jun 2025 to Present",
-          "responsibilities": [
-            "fjdkslfsd"
-          ]
+          "responsibilities": ["fjdkslfsd"]
         }
       ]
     },
@@ -49,7 +45,7 @@
           "date": "Nov 2023 to Jun 2024",
           "responsibilities": [
             "Created features for an in-browser editor built using Typescript, React and Redux.",
-            "Worked directly on new graphing initiative by building technical foundations.",
+            "Worked directly on new graphing initiative by building technical foundations and core graphing engine.",
             "Collaborated to formulate design/product requirements and led investigations for engineering design documents/specifications.",
             "Worked closely with product designers to implement design specifications and improve the user experience within BioRender's new in-browser graphing product"
           ]
@@ -89,6 +85,105 @@
       "institution": "University of Toronto",
       "date": "2021",
       "subject": "Computer Science"
+    }
+  ],
+  "skills": [
+    {
+      "grouping": "Languages",
+      "items": [
+        "Typescript",
+        "Javascript",
+        "Python",
+        "Java",
+        "Ruby",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "grouping": "Frameworks/Libraries",
+      "items": [
+        "React",
+        "NodeJS",
+        "Remix",
+        "NextJS",
+        "Redux",
+        "Express",
+        "GraphQL",
+        "Fastify",
+        "Django",
+        "OAuth",
+        "socket.io",
+        "Stripe API",
+        "Stripe Tax API",
+        "Retool",
+        "SASS",
+        "Bootstrap",
+        "TailwindCSS",
+        "Ajax",
+        "Ruby on Rails",
+        "Axios",
+        "jQuery",
+        "XState",
+        "KeyCloak"
+      ]
+    },
+    {
+      "grouping": "Infrastructure",
+      "items": [
+        "ElasticSearch",
+        "OpenTelemetry",
+        "Honeycomb",
+        "Docker",
+        "Kibana",
+        "OpsGenie",
+        "Linux",
+        "Github Actions",
+        "Helm"
+      ]
+    },
+    {
+      "grouping": "Misc",
+      "items": [
+        "PostgreSQL",
+        "MongoDB",
+        "SQL",
+        "Git",
+        "Agile Development",
+        "JIRA",
+        "Notion",
+        "Slack",
+        "Github",
+        "ElasticSearch",
+        "Metabase",
+        "SendGrid",
+        "Graphite",
+        "Mailgun"
+      ]
+    },
+    {
+      "grouping": "Testing",
+      "items": [
+        "Jest",
+        "Cypress",
+        "Storybook",
+        "Mocha",
+        "Chai",
+        "RSpec",
+        "Pytest"
+      ]
+    },
+    {
+      "grouping": "Design",
+      "items": [
+        "Figma",
+        "Adobe Photoshop",
+        "Adobe After Effects",
+        "Adobe Premiere Pro",
+        "Adobe Illustrator",
+        "Sony Vegas Pro",
+        "Davinci Resolve"
+      ]
     }
   ]
 }
