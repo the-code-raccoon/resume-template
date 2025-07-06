@@ -1,0 +1,50 @@
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: flex-start;
+  margin-top: 8px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  i {
+    margin-right: 6px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:focus {
+    text-decoration: none;
+  }
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+
+  > .row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  > .email,
+  > .phoneNumber {
+    grid-row-start: 1;
+  }
+
+  > .linkedin,
+  > .github {
+    grid-row-start: 3;
+  }
+}
