@@ -1,17 +1,23 @@
 import "./styles.css";
 
-export const Education = () => {
+export type EducationType = {
+  institution: string;
+  date: string;
+  subject: string;
+};
+
+export const Education = ({ institution, date, subject }: EducationType) => {
   return (
     <div className="section education">
       <h1>education</h1>
 
       <div className="content">
         <div className="row">
-          <h2>University of Toronto</h2>
-          <span className="extraInfo">2021</span>
+          <h2>{institution}</h2>
+          <span className="extraInfo">{date}</span>
         </div>
 
-        <h3>Computer Science</h3>
+        <h3>{subject}</h3>
       </div>
     </div>
   );

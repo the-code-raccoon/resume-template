@@ -60,5 +60,12 @@
         }
       ]
     }
+  ],
+  "education": [
+    {
+      "institution": "University of Toronto",
+      "date": "2021",
+      "subject": "Computer Science"
+    }
   ]
 }

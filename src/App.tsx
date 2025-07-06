@@ -1,5 +1,5 @@
 import { ContactInfo, ContactInfoType } from "./components/ContactInfo";
-import { Education } from "./components/Education/Education";
+import { Education, EducationType } from "./components/Education/Education";
 import { Employment, EmploymentType } from "./components/Employment";
 import { Name } from "./components/Name";
 import { Skills } from "./components/Skills";
@@ -10,10 +10,12 @@ import resumeJson from "./resume-info.json";
 type ResumeInfoType = {
   contactInfo: ContactInfoType;
   employment: EmploymentType[];
+  education: EducationType[];
 };
 
 function App() {
-  const { contactInfo, employment } = resumeJson as unknown as ResumeInfoType;
+  const { contactInfo, employment, education } =
+    resumeJson as unknown as ResumeInfoType;
 
   return (
     <body>
@@ -28,7 +30,9 @@ function App() {
             <Employment {...e} />
           ))}
           <Skills />
-          <Education />
+          {education.map((e) => (
+            <Education {...e} />
+          ))}
         </div>
       </div>
     </body>
