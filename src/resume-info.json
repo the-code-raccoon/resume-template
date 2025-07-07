@@ -27,12 +27,25 @@
         {
           "title": "Softare Developer II",
           "date": "Jul 2024 to Jun 2025",
-          "responsibilities": ["fjdkslfsd"]
+          "responsibilities": [
+            "Lead development of in-browser WYSIWYG e-commerce storefront editor with a custom migration system for data integrity using NextJS and Typescript.",
+            "Overhauled existing checkout app using XState that reduced loading times from 6 seconds to 0.5 seconds.",
+            "Implemented Stripe Tax plugin into checkout app which allowed for complex multi-vendor tax logic to be encaspulated into one simple payment step for end users.",
+            "Designed and developed single sign system using OAuth allowing end users to securely signup and login via Google.",
+            "Regularily conducted front end interviews for candidates of varying levels (senior to co-ops).",
+            "Standarized front end interview process and trained other interviewers on how to run front end interviews to improve consistency in interviews and reduce bias."
+          ]
         },
         {
           "title": "Technical Team Lead",
           "date": "Jun 2025 to Present",
-          "responsibilities": ["fjdkslfsd"]
+          "responsibilities": [
+            "Mentored co-op students and reguarily held 1-1's with them to help develop their technical and interpersonal skills.",
+            "Planned and managed technical debt improvement projects resulting in reducing the number of different frameworks used by client facing applications by 50%.",
+            "Lead team of 6 developers while working closely with Product Manager and Engineering Manager to delegate resourcing, plan team roadmap and address blockers.",
+            "Documented existing and new engineering processes to improve institutional knowledge across the entire engineering department.",
+            "Conducted all regularly meetings for team, as well as project kick off meetings involving engineers and key stakeholders."
+          ]
         }
       ]
     },
@@ -45,18 +58,14 @@
           "date": "Nov 2023 to Jun 2024",
           "responsibilities": [
             "Created features for an in-browser editor built using Typescript, React and Redux.",
-            "Worked directly on new graphing initiative by building technical foundations and core graphing engine.",
-            "Collaborated to formulate design/product requirements and led investigations for engineering design documents/specifications.",
-            "Worked closely with product designers to implement design specifications and improve the user experience within BioRender's new in-browser graphing product"
+            "Worked directly on in-browser new graphing product by building technical foundations and contributing to core graphing engine."
           ]
         },
         {
           "title": "Software Developer, Growth Team",
           "date": "Mar 2023 to Nov 2023",
           "responsibilities": [
-            "Conducted and iterated on fast paced weekly experiments.",
-            "Improved end-user experience of legacy billing page by doing complete a UI/UX overhaul.",
-            "Added team processes and standards to enhance engineering productivity, organization and internal communications.",
+            "Conducted and iterated on 2+ fast paced experiemnts every week.",
             "Implemented front-end changes to signup flow that improved the collection of user data, resulting in more personalized content and more user engagement.",
             "Developed personalized content targeting enterprise customers, resulting in a 20% lift in product-qualified leads.",
             "Implemented monetization features directly into the BioRender editor leading to over $3.2 million annual recurring revenue."
@@ -66,15 +75,11 @@
           "title": "Software Developer, Internal Tools",
           "date": "Jul 22 to Mar 2023",
           "responsibilities": [
-            "Created and maintained a Restful API that supports over 200 internal users and performed critical business logic.",
-            "Lead developer in charge of creating and maintaining UI used by internal teams using third-party front-end tool Retool.",
-            "Streamlined tedious internal operations and processes into automated tooling that optimized workflow by over 300%.",
-            "Developed full-stack enterprise features to help admins manage hundreds of organizations, totalling hundreds of thousands of BioRender users.",
+            "Lead degvelopment of internal API and UI, using Retool, that supported over 300 BioRender employees and streamlined internal processes resulting in over 20 hours saved per employee per week.",
+            "Developed new enterprise dashboard features to help admins manage hundreds of organizations, totalling hundreds of thousands of BioRender users.",
             "Improved consistency in data lake and database, totalling over 20,000 documents updated.",
             "Lead the migration and retirement of legacy features that affected over 10,000 users and updated over 100,000 database entities.",
-            "Drew out various product flows, interviewed stakeholders and held feedback sessions with users for several internal and external products.",
-            "Provided technical support and troubleshooting using Elastic to non-engineering teams, averaging 4 requests per day and a resolution time of 1 hour.",
-            "Assisted in onboarding a co-op student and regularly held pair programming sessions with them."
+            "Provided technical support and troubleshooting using Elastic to non-engineering teams, averaging 4 requests per day and a resolution time of 1 hour."
           ]
         }
       ]
@@ -113,11 +118,12 @@
         "Fastify",
         "Django",
         "OAuth",
+        "Recaptcha",
         "socket.io",
         "Stripe API",
         "Stripe Tax API",
         "Retool",
-        "SASS",
+        "SCSS",
         "Bootstrap",
         "TailwindCSS",
         "Ajax",
@@ -139,7 +145,7 @@
         "OpsGenie",
         "Linux",
         "Github Actions",
-        "Helm"
+        "Helm/Helmchart"
       ]
     },
     {
@@ -158,7 +164,8 @@
         "Metabase",
         "SendGrid",
         "Graphite",
-        "Mailgun"
+        "Mailgun",
+        "Figma"
       ]
     },
     {
@@ -171,18 +178,6 @@
         "Chai",
         "RSpec",
         "Pytest"
-      ]
-    },
-    {
-      "grouping": "Design",
-      "items": [
-        "Figma",
-        "Adobe Photoshop",
-        "Adobe After Effects",
-        "Adobe Premiere Pro",
-        "Adobe Illustrator",
-        "Sony Vegas Pro",
-        "Davinci Resolve"
       ]
     }
   ]
