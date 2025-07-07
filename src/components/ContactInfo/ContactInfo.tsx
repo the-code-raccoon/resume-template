@@ -17,7 +17,7 @@ export type ContactInfoType = {
 export const ContactInfo = ({ email, phoneNumber, location, links }) => {
   return (
     <Layout.Root className="contactInfo">
-      <Layout.Row>
+      <Layout.Row spacing="flex-start">
         <div className="email">
           <i className="fa-solid fa-envelope"></i>
           {email}
@@ -28,14 +28,14 @@ export const ContactInfo = ({ email, phoneNumber, location, links }) => {
         </div>
       </Layout.Row>
 
-      <Layout.Row>
+      <Layout.Row spacing="flex-start">
         <div className="location">
           <i className="fa-solid fa-location-dot"></i>
           {location}
         </div>
       </Layout.Row>
 
-      <Layout.Row>
+      <Layout.Row spacing="flex-start">
         {links.map((link) => (
           <div className={link.type}>
             <a href={link.url} target="_blank">
