@@ -100,7 +100,6 @@
         "Javascript",
         "Python",
         "Java",
-        "Ruby",
         "HTML",
         "CSS"
       ]
@@ -109,14 +108,14 @@
       "grouping": "Frameworks/Libraries",
       "items": [
         "React",
-        "NodeJS",
-        "Remix",
+        "Django",
         "NextJS",
+        "Remix",
+        "NodeJS",
         "Redux",
         "Express",
         "GraphQL",
         "Fastify",
-        "Django",
         "OAuth",
         "Recaptcha",
         "socket.io",
@@ -126,26 +125,25 @@
         "SCSS",
         "Bootstrap",
         "TailwindCSS",
-        "Ajax",
-        "Ruby on Rails",
-        "Axios",
-        "jQuery",
         "XState",
-        "KeyCloak"
+        "KeyCloak",
+        "jQuery"
       ]
     },
     {
       "grouping": "Infrastructure",
       "items": [
+        "Kubernetes",
+        "Docker",
         "ElasticSearch",
         "OpenTelemetry",
         "Honeycomb",
-        "Docker",
         "Kibana",
         "OpsGenie",
         "Linux",
         "Github Actions",
-        "Helm/Helmchart"
+        "Helm/Helmchart",
+        "AWS"
       ]
     },
     {
@@ -157,15 +155,14 @@
         "Git",
         "Agile Development",
         "JIRA",
-        "Notion",
         "Slack",
         "Github",
-        "ElasticSearch",
         "Metabase",
         "SendGrid",
-        "Graphite",
         "Mailgun",
-        "Figma"
+        "Figma",
+        "Graphite",
+        "Notion"
       ]
     },
     {
@@ -176,7 +173,6 @@
         "Storybook",
         "Mocha",
         "Chai",
-        "RSpec",
         "Pytest"
       ]
     }

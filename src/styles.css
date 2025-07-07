@@ -72,6 +72,6 @@ ul ul li {
   display: flex;
   flex-direction: column;
   padding: 20px 15px;
-  gap: 20px;
+  gap: 12px;
 }
 /*End Layout*/
