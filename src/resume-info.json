@@ -1,6 +1,6 @@
 {
   "personalInfo": {
-    "firstName": "Francesa",
+    "firstName": "Francesca",
     "lastName": "Ho",
     "title": "Software Developer",
     "email": "francesca.ho459@gmail.com",
@@ -25,6 +25,17 @@
       "location": "Toronto, Ontario (Hybrid)",
       "titles": [
         {
+          "title": "Technical Team Lead",
+          "date": "Jun 2025 to Present",
+          "responsibilities": [
+            "Mentored co-op students and reguarily held 1-1's with them to help develop their technical and interpersonal skills.",
+            "Planned and managed technical debt improvement projects resulting in reducing the number of different frameworks used by client facing applications by 50%.",
+            "Lead team of 6 developers while working closely with Product Manager and Engineering Manager to delegate resourcing, plan team roadmap and address blockers.",
+            "Documented existing and new engineering processes to improve institutional knowledge across the entire engineering department.",
+            "Conducted all regularly meetings for team, as well as project kick off meetings involving engineers and key stakeholders."
+          ]
+        },
+        {
           "title": "Softare Developer II",
           "date": "Jul 2024 to Jun 2025",
           "responsibilities": [
@@ -34,17 +45,6 @@
             "Designed and developed single sign system using OAuth allowing end users to securely signup and login via Google.",
             "Regularily conducted front end interviews for candidates of varying levels (senior to co-ops).",
             "Standarized front end interview process and trained other interviewers on how to run front end interviews to improve consistency in interviews and reduce bias."
-          ]
-        },
-        {
-          "title": "Technical Team Lead",
-          "date": "Jun 2025 to Present",
-          "responsibilities": [
-            "Mentored co-op students and reguarily held 1-1's with them to help develop their technical and interpersonal skills.",
-            "Planned and managed technical debt improvement projects resulting in reducing the number of different frameworks used by client facing applications by 50%.",
-            "Lead team of 6 developers while working closely with Product Manager and Engineering Manager to delegate resourcing, plan team roadmap and address blockers.",
-            "Documented existing and new engineering processes to improve institutional knowledge across the entire engineering department.",
-            "Conducted all regularly meetings for team, as well as project kick off meetings involving engineers and key stakeholders."
           ]
         }
       ]

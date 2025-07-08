@@ -3,6 +3,15 @@ import * as Layout from "../Layout";
 
 type ContactInfoLinkType = "github" | "linkedin";
 
+const ContactLinkIcon = ({ type }: { type: ContactInfoLinkType }) => {
+  switch (type) {
+    case "github":
+      return <i className="fa-brands fa-github" />;
+    case "linkedin":
+      return <i className="fa-brands fa-linkedin-in" />;
+  }
+};
+
 export type ContactInfoType = {
   email: string;
   phoneNumber: string;
@@ -40,7 +49,7 @@ export const ContactInfo = ({ email, phoneNumber, location, links }) => {
           <div className={link.type}>
             <a href={link.url} target="_blank">
               <span>
-                <i className="fa-brands fa-linkedin-in"></i>
+                <ContactLinkIcon type={link.type} />
                 {link.text}
               </span>
             </a>
