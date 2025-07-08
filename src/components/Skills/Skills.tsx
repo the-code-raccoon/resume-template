@@ -13,7 +13,7 @@ export const Skills = ({ skills }: { skills: SkillsType[] }) => {
 
       <Layout.Content>
         {skills.map(({ grouping, items }) => (
-          <div className="skill">
+          <div className="skill" key={grouping}>
             <span>{grouping}: </span>
             {items.join(", ")}
           </div>

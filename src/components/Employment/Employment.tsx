@@ -1,5 +1,6 @@
 import "./styles.css";
 import * as Layout from "../Layout";
+import * as React from "react"
 
 type TitleType = {
   title: string;
@@ -23,7 +24,7 @@ const Title = ({ title: titleText, date, responsibilities }: TitleType) => {
 
       <ul>
         {responsibilities.map((r) => (
-          <li>{r}</li>
+          <li key={r}>{r}</li>
         ))}
       </ul>
     </>
@@ -41,16 +42,16 @@ export const Employment = ({
 
       <Layout.Content>
         {employments.map(({ company, location, titles }) => (
-          <>
-            <Layout.Row>
+          <React.Fragment key={company}>
+            <Layout.Row >
               <h2>{company}</h2>
               <Layout.RowRightItem>{location}</Layout.RowRightItem>
             </Layout.Row>
 
             {titles.map((title) => (
-              <Title {...title} />
+              <Title key={title.title} {...title} />
             ))}
-          </>
+          </React.Fragment>
         ))}
       </Layout.Content>
     </Layout.Root>

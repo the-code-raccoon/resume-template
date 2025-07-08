@@ -46,7 +46,7 @@ export const ContactInfo = ({ email, phoneNumber, location, links }) => {
 
       <Layout.Row spacing="flex-start">
         {links.map((link) => (
-          <div className={link.type}>
+          <div className={link.type} key={link.url}>
             <a href={link.url} target="_blank">
               <span>
                 <ContactLinkIcon type={link.type} />
